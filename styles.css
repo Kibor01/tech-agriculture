@@ -62,14 +62,9 @@ button {
   padding: 20px 50px;
 }
 
-#logo_left {
-  font-size: 45px;
-  color: #ff1d58;
-}
-
-#logo_right {
-  color: #00ff00;
-  font-size: 80px;
+.logo {
+  width: 70px;
+  height: 80px;
 }
 
 .main-navigation {

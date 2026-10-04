@@ -34,7 +34,7 @@ a:hover {
 a,
 button {
   transition: all 400ms ease-in-out;
-  background-color: #00ff00;
+  background-color: #000000;
   color: #ffffff;
 }
 
@@ -295,6 +295,11 @@ nav-icon {
 
 .services-section {
   padding: 50px 5%;
+}
+
+.system-container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr)
 }
 
 /*Footer Styles*/

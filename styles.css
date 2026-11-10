@@ -21,21 +21,26 @@ h6 {
   text-transform: capitalize;
 }
 
+
+/* General link styling */
 a {
-  color: #ff1d58;
   text-decoration: none;
+  transition: color 0.3s ease, background-color 0.3s ease;
 }
 
 a:hover {
-  color: #ff1d58;
-  text-decoration: underline;
+  text-decoration: none;
 }
+
 
 a,
 button {
+  display: flex;
+  gap: 5px;
   transition: all 400ms ease-in-out;
   background-color: #000000;
   color: #ffffff;
+
 }
 
 /*Header Styles*/
@@ -71,7 +76,7 @@ button {
   margin-left: auto;
 }
 
-.main-navigation > ul {
+.main-navigation>ul {
   display: flex;
   gap: 35px;
   list-style: none;
@@ -79,7 +84,7 @@ button {
   padding: 0;
 }
 
-.main-navigation > ul > li > a {
+.main-navigation>ul>li>a {
   text-decoration: none;
   color: #00ff00;
   font-size: 18px;
@@ -92,7 +97,7 @@ nav-icon {
   cursor: pointer;
 }
 
-.main-navigation > ul > li > a:hover {
+.main-navigation>ul>li>a:hover {
   color: #ff1d58;
 }
 
@@ -199,9 +204,9 @@ nav-icon {
   text-align: justify;
 }
 
-.btn {
-  display: inline-block;
-  padding: 14px 30px;
+c .btn {
+  display: flex;
+  padding: 10px 30px;
   background: #2e7d32;
   color: #fff;
   text-decoration: none;
@@ -302,6 +307,162 @@ nav-icon {
   grid-template-columns: repeat(2, 1fr)
 }
 
+/* AgriNova Market product images */
+.product-card .product-image {
+  display: flex;
+  width: 100px;
+  height: 300px;
+  border-radius: 5px 5px;
+}
+
+
+/* ==============================
+   AGRINOVA HERO CTA BUTTONS
+================================ */
+
+.cta-buttons {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin: 35px auto;
+  padding: 15px;
+  flex-wrap: wrap;
+}
+
+/* Shared button styling */
+.cta-buttons .btn-primary,
+.cta-buttons .btn-secondary {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  padding: 14px 30px;
+  min-width: 180px;
+  border-radius: 8px;
+  border: 2px solid #00ff00;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+/* Explore Products */
+.cta-buttons .btn-primary {
+  background-color: #00ff00;
+  color: #000000;
+}
+
+/* Get Agricultural Advice */
+.cta-buttons .btn-secondary {
+  background-color: transparent;
+  color: #00ff00;
+}
+
+/* Hover effects */
+.cta-buttons .btn-primary:hover {
+  background-color: #ffffff;
+  color: #008000;
+  border-color: #ffffff;
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.25);
+}
+
+.cta-buttons .btn-secondary:hover {
+  background-color: #00ff00;
+  color: #000000;
+  border-color: #00ff00;
+  transform: translateY(-4px);
+  box-shadow: 0 5px 15px rgba(0, 255, 0, 0.25);
+}
+
+/* Keyboard accessibility */
+.cta-buttons a:focus-visible {
+  outline: 3px solid #ffffff;
+  outline-offset: 4px;
+}
+
+/* Container holding the category cards */
+/* Individual category cards */
+.category-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    min-height: 190px;
+    padding: 20px;
+    box-sizing: border-box;
+
+    /*Background tools */
+    background-color: #ffffff;
+    color: #222222;
+    border: 2px solid #198754;
+    border-radius: 10px;
+    text-align: center;
+    text-decoration: none;
+    transition: all 0.3s ease-in-out;
+}
+
+/* Category headings */
+.category-card h3 {
+    width: 100%;
+    margin: 0 0 15px;
+    padding: 10px 5px;
+    text-align: center;
+    color: #006400;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+/* Category descriptions */
+.category-card p {
+    color: #333333;
+    margin: 0;
+    text-align: center;
+}
+
+/* Hover effect */
+.category-card:hover {
+    background-color: #e8f5e9;
+    border-color: #00a651;
+    transform: translateY(-5px);
+    box-shadow: 0 8px 18px rgba(0, 100, 0, 0.2);
+}
+
+/* Keep headings visible on hover */
+.category-card:hover h3 {
+    color: #006400;
+}
+
+.category-card:hover p {
+    color: #333333;
+}
+
+/* Container holding the category cards */
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(5, minmax(180px, 1fr));
+  gap: 20px;
+  width: 100%;
+  flex: 1;
+}
+
+/* Hover effect */
+.category-card:hover {
+  background-color: #ffffff;
+  transform: translateY(-5px);
+  box-shadow: 0 8px 18px rgba(0, 255, 0, 0.25);
+}
+
+.category-card:hover h3 {
+  color: #006400;
+}
+
+.category-card:hover p {
+  color: #000000;
+}
+
 /*Footer Styles*/
 footer-content {
   display: flex;
@@ -321,7 +482,7 @@ footer-content {
   justify-content: center;
 }
 
-.social-links > a {
+.social-links>a {
   color: #ffffff;
   transition: all 0.4s ease-in-out;
   background-color: #00ff00;
@@ -329,12 +490,46 @@ footer-content {
   text-decoration: none;
 }
 
-.social-links > a:hover {
+.social-links>a:hover {
   text-decoration: underline;
   background-color: #ffffff;
   color: #00ff00;
 }
 
-.social-links > a > i {
+.social-links>a>i {
   font-size: 2em;
+}
+
+/* Mobile layout */
+@media screen and (max-width: 600px) {
+  .cta-buttons {
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .cta-buttons a {
+    width: 100%;
+    max-width: 280px;
+    box-sizing: border-box;
+  }
+}
+
+/* Tablet */
+@media screen and (max-width: 900px) {
+  .category-grid {
+    grid-template-columns: repeat(2, minmax(180px, 1fr));
+  }
+}
+
+/* Mobile */
+@media screen and (max-width: 600px) {
+  .market-categories {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+    width: 100%;
+  }
 }

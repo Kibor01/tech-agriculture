@@ -1,53 +1,301 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
 
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Market</title>
-  <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>AgriNova | Agricultural Products & Markets</title>
+  <meta name="description"
+    content="Explore agricultural products, market opportunities, value-added products, and practical agribusiness information with AgriNova.">
+  <link rel="stylesheet" href="styles.css">
   <script src="https://kit.fontawesome.com/0494bf5985.js" crossorigin="anonymous"></script>
 </head>
 
 <body>
   <header class="header">
     <nav class="main-navigation">
+      <a href="index.html" class="brand">
+        <i class="fa-solid fa-seedling"></i>
+        AgriNova
+      </a>
       <ul>
         <li><a href="index.html">Home</a></li>
         <li><a href="market.html">Market</a></li>
-        <li><a href="value.html">Value chain</a></li>
+        <li><a href="value.html">Value Chain</a></li>
         <li><a href="microeconomics.html">Microeconomics</a></li>
       </ul>
     </nav>
   </header>
-  <div id="agri-market" class="marketing-section">
-    <h2 class="section-title">AgriNova — Agricultural Products & Commodities</h2>
-    <div class="services-container">
-      <div class="service-card">
-        <img src="/assets/livestocks.png" alt="animals" class="card-image">
-      </div>
-      <div class="services-container">
-        <div class="service-card">
-          <h3>Agricultural Products & Commodities</h3>
-          <img src="/assets/grocery.png" alt="grocery" class="card-image">
+  <div class="market-hero">
+    <div class="hero-content">
+      <h1>AGRINOVA AGRICULTURAL MARKET</h1>
+      <h2>Agricultural Products &amp; Commodities</h2>
+      <p>
+        Discover agricultural products, explore market
+        opportunities, and access practical information to
+        help you make informed farming and agribusiness decisions.
+      </p>
+    </div>
+    <div class="cta-buttons">
+      <a href="#products" class="btn-primary">
+        Explore Products
+      </a>
+      <a href="#consultation" class="btn-secondary">
+        Get Agricultural Advice
+      </a>
+    </div>
+  </div>
+  <div class="market-intro">
+    <h2>Welcome to the AgriNova Market</h2>
+    <p>
+      From farm products to animal production, AgriNova helps
+      farmers, students, and agribusiness entrepreneurs discover
+      agricultural opportunities, understand markets, and make
+      better-informed decisions.
+    </p>
+  </div>
+  <div class="market-categories">
+    <div class="section-heading">
+      <h2>Explore Our Categories</h2>
+      <p>Find agricultural products and services in one place.</p>
+    </div>
+    <div class="category-card">
+      <h3>Crop Products</h3>
+      <cta-buttons>
+        <a href="#products" class="category-card">
+          <p>Maize, sorghum, millet, and other crops.</p>
+        </a>
+      </cta-buttons>
+      <cta-buttons>
+        <a href="#products" class="category-card">
+          <h3>Livestock &amp; Animal Products</h3>
+          <p>Dairy, poultry, goats, sheep, and eggs.</p>
+        </a>
+      </cta-buttons>
+      <cta-buttons>
+        <a href="#products" class="category-card">
+          <h3>Horticulture &amp; Cash Crops</h3>
+          <p>Tomatoes, onions, avocados, and more.</p>
+        </a>
+      </cta-buttons>
+      <cta-buttons>
+        <a href="#products" class="category-card">
+          <h3>Value-Added Products</h3>
+          <p>Milled flour, honey, and dried fruits.</p>
+        </a>
+      </cta-buttons>
+      <cta-buttons>
+        <a href="#products" class="category-card">
+          <h3>Agricultural Inputs &amp; Services</h3>
+          <p>Seeds, fertilizers, soil testing, and animal feeds.</p>
+        </a>
+      </cta-buttons>
+    </div>
+  </div>
+  <div class="market-products" id="products">
+    <div class="section-heading">
+      <h2>Agricultural Products &amp; Commodities</h2>
+      <p>
+        Explore production information, market opportunities,
+        and practical tips for different agricultural products.
+      </p>
+    </div>
+    <div class="product-grid">
+      <div class="product-card">
+        <div class="product-info">
+          <h3>Maize</h3>
+          <p>A staple food crop with demand for food, feed, and processing.</p>
+          <a href="#consultation" class="product-link">Learn More</a>
         </div>
+        <div class="/assets/farm-explore.png" alt="farm-outputs">
+        </div>
+        <div class="product-card">
+          <div class="product-info">
+            <span class="product-category">Crop Products</span>
+            <h3>Sorghum</h3>
+            <p>A drought-tolerant crop suitable for food and animal feed.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </div>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category"></span>
+            <h3>Millet</h3>
+            <p>A nutritious cereal crop suited to various dryland farming systems.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Livestock</span>
+            <h3>Dairy Cattle &amp; Milk</h3>
+            <p>Explore milk production, feeding, costs, and market demand.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Livestock</span>
+            <h3>Poultry &amp; Eggs</h3>
+            <p>Learn about poultry management, egg production, and sales.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Livestock</span>
+            <h3>Goats &amp; Sheep</h3>
+            <p>Explore animal management, feeding, and market opportunities.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Horticulture</span>
+            <h3>Tomatoes</h3>
+            <p>A popular vegetable with opportunities in fresh produce markets.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <div class="product-card">
+          <div class="product-info">
+            <span class="product-category">Horticulture</span>
+            <h3>Onions</h3>
+            <p>Learn about production planning, storage, and market demand.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </div>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Horticulture</span>
+            <h3>Avocados</h3>
+            <p>Explore orchard management, quality, and potential markets.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <!-- Value-added products -->
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Value-Added</span>
+            <h3>Milled Maize Flour</h3>
+            <p>Discover how processing adds value to agricultural produce.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Value-Added</span>
+            <h3>Honey</h3>
+            <p>Explore beekeeping, product quality, packaging, and sales.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Value-Added</span>
+            <h3>Dried Fruits</h3>
+            <p>Learn how preservation can extend shelf life and add value.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Inputs &amp; Services</span>
+            <h3>Seeds &amp; Seedlings</h3>
+            <p>Understand seed selection and the importance of quality planting material.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Inputs &amp; Services</span>
+            <h3>Fertilizers &amp; Soil Testing</h3>
+            <p>Learn how soil analysis supports informed fertilizer decisions.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
+        <article class="product-card">
+          <div class="product-info">
+            <span class="product-category">Inputs &amp; Services</span>
+            <h3>Animal Feeds</h3>
+            <p>Explore feeding needs, feed quality, and livestock production costs.</p>
+            <a href="#consultation" class="product-link">Learn More</a>
+          </div>
+        </article>
       </div>
     </div>
+    <div class="market-learning">
+      <div class="section-heading">
+        <h2>Understand Markets &amp; Farm Profitability</h2>
+        <p>
+          Good decisions begin with understanding costs,
+          selling prices, demand, and potential returns.
+        </p>
+      </div>
+      <div class="learning-grid">
+        <article class="learning-card">
+          <i class="fa-solid fa-chart-line"></i>
+          <h3>Market Opportunities</h3>
+          <p>Explore potential buyers, demand, supply, and selling channels.</p>
+        </article>
+        <article class="learning-card">
+          <i class="fa-solid fa-calculator"></i>
+          <h3>Farm Cost Analysis</h3>
+          <p>Estimate input, labour, transport, and other production costs.</p>
+        </article>
+        <article class="learning-card">
+          <i class="fa-solid fa-coins"></i>
+          <h3>Profit Estimation</h3>
+          <p>Compare expected revenue with total costs before making decisions.</p>
+        </article>
+      </div>
+      <p class="price-note">
+        Note: Market prices vary by location, season, quality, and buyer.
+        Any educational price examples should be labelled clearly
+        and should not be treated as guaranteed selling prices.
+      </p>
     </div>
-    <div class="cta-button">
-      <a href="#explore_products">Explore Products</a>
-      <a href="#market_opportunities">Market Opportunities</a>
+    <div class="consultation-section" id="consultation">
+      <div class="consultation-content">
+        <h2>Need Agricultural Advice?</h2>
+
+        <p>
+          Whether you are starting a farm, improving production,
+          exploring markets, or planning an agribusiness venture,
+          let's discuss your goals.
+        </p>
+
+        <a href="mailto:YOUR_EMAIL@example.com?subject=AgriNova%20Agricultural%20Consultation" class="btn-primary">
+          <i class="fa-solid fa-envelope"></i>
+          Request a Consultation
+        </a>
+      </div>
     </div>
     <footer>
       <div class="copyright">
-        <p>copyright@2026 ||Dominic kipkosgei||Agriculture Expert.</p>
+        <p>
+          &copy; 2026 | Dominic Kipkosgei |
+          Agriculture Expert | AgriNova
+        </p>
       </div>
       <div class="social-links">
-        <a href="https://www.facebook.com/profile.php?id=61550864561580" target="_blank"><i
-            class="fa-brands fa-facebook"></i></a>
-        <a href="https://wa.me/254742061848" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
-        <a href="https://twitter.com/kipkosgeibor" target="_blank"><i class="fa-brands fa-x-twitter"></i></a>
-        <a href="https://www.instagram.com/kipkosgeibor97/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+        <a href="https://www.facebook.com/profile.php?id=61550864561580" target="_blank" rel="noopener noreferrer"
+          aria-label="Facebook">
+          <i class="fa-brands fa-facebook"></i>
+        </a>
+
+        <a href="https://wa.me/254742061848" target="_blank" rel="noopener noreferrer" aria-label="WhatsApp">
+          <i class="fa-brands fa-whatsapp"></i>
+        </a>
+
+        <a href="https://twitter.com/kipkosgeibor" target="_blank" rel="noopener noreferrer" aria-label="X">
+          <i class="fa-brands fa-x-twitter"></i>
+        </a>
+
+        <a href="https://www.instagram.com/kipkosgeibor97/" target="_blank" rel="noopener noreferrer"
+          aria-label="Instagram">
+          <i class="fa-brands fa-instagram"></i>
+        </a>
       </div>
     </footer>
 </body>

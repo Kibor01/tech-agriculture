@@ -110,10 +110,7 @@ html {
   font-size: 22px;
 }
 
-
-/* =========================================
-   3. SHARED SECTION HEADINGS
-========================================= */
+/*SHARED SECTION HEADINGS*/
 
 .section-title,
 .section-heading h2 {
@@ -283,7 +280,7 @@ html {
     url("assets/Agri-tech.jpg") center/cover no-repeat;
 }
 
-.market-hero-content {
+.market-hero-text {
   max-width: 900px;
   padding: 30px;
 }

@@ -240,11 +240,6 @@ html {
   margin-bottom: 15px;
 }
 
-
-/* =========================================
-   6. SHARED BUTTONS
-========================================= */
-
 .btn {
   display: inline-block;
   background-color: #FF1D58;
@@ -264,11 +259,6 @@ html {
   transform: translateY(-3px);
 }
 
-
-/* =========================================
-   7. MARKET HERO SECTION
-========================================= */
-
 .market-hero {
   min-height: 420px;
   display: flex;
@@ -280,7 +270,7 @@ html {
     url("assets/Agri-tech.jpg") center/cover no-repeat;
 }
 
-.market-hero-text {
+.market-hero-content {
   max-width: 900px;
   padding: 30px;
 }

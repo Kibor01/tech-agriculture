@@ -1,6 +1,4 @@
-/* =========================================
-   1. GENERAL STYLES
-========================================= */
+/*general style*/
 
 * {
   margin: 0;
@@ -41,18 +39,17 @@ section {
   padding: 60px 6%;
 }
 
-/* GLOBAL SMOOTH SCROLLING */
+
+/* smooth scrolling */
 html {
-    scroll-behavior: smooth;
-    scroll-padding-top: 20px;
-    max-width: 100%;
-    overflow-x: hidden;
+  scroll-behavior: smooth;
+  scroll-padding-top: 20px;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 
 
-/* =========================================
-   2. HEADER AND NAVIGATION
-========================================= */
+/*header and navigation*/
 
 .header {
   background-color: #000000;
@@ -110,7 +107,7 @@ html {
   font-size: 22px;
 }
 
-/*SHARED SECTION HEADINGS*/
+/*shared section headings*/
 
 .section-title,
 .section-heading h2 {
@@ -132,9 +129,8 @@ html {
 }
 
 
-/* =========================================
-   4. HOMEPAGE DIGITAL SOLUTIONS
-========================================= */
+/*home page and digital solutions*/
+
 
 .digital-section {
   background-color: #000000;
@@ -270,7 +266,7 @@ html {
     url("assets/Agri-tech.jpg") center/cover no-repeat;
 }
 
-.market-hero-content {
+.market-hero-text {
   max-width: 900px;
   padding: 30px;
 }
@@ -295,13 +291,12 @@ html {
 }
 
 
-/* =========================================
-   8. MARKET INTRODUCTION
-========================================= */
+/*market introduction */
 
 .market-intro {
   background-color: #006400;
   text-align: center;
+  padding: 60px 6%;
 }
 
 .market-intro p {
@@ -311,12 +306,11 @@ html {
 }
 
 
-/* =========================================
-   9. MARKET CATEGORY SECTION
-========================================= */
+/*market categories*/
 
 .market-categories {
   background-color: #000000;
+  padding: 60px 6%;
 }
 
 .category-grid {
@@ -385,12 +379,11 @@ html {
 }
 
 
-/* =========================================
-   10. MARKET PRODUCTS SECTION
-========================================= */
+/*market products sections*/
 
 .products-section {
   background-color: #006400;
+  padding: 60px 6%;
 }
 
 .product-category {
@@ -453,12 +446,11 @@ html {
 }
 
 
-/* =========================================
-   11. MARKET LEARNING SECTION
-========================================= */
+/*market learning section*/
 
 .market-learning {
   background-color: #000000;
+  padding: 60px 6%;
 }
 
 .learning-grid {
@@ -504,13 +496,12 @@ html {
 }
 
 
-/* =========================================
-   12. MARKET CONSULTATION
-========================================= */
+/*market consultation*/
 
 .market-consultation {
   background-color: #006400;
   text-align: center;
+  padding: 60px 6%;
 }
 
 .consultation-content {
@@ -530,9 +521,7 @@ html {
 }
 
 
-/* =========================================
-   13. FOOTER AND SOCIAL LINKS
-========================================= */
+/*footer and social media links*/
 
 .site-footer,
 footer {
@@ -567,9 +556,7 @@ footer {
 }
 
 
-/* =========================================
-   14. RESPONSIVE DESIGN
-========================================= */
+/*responsiveness*/
 
 /* Tablets */
 @media screen and (max-width: 900px) {
@@ -604,7 +591,12 @@ footer {
 /* Mobile phones */
 @media screen and (max-width: 600px) {
 
-  section {
+  section,
+  .market-page .market-intro,
+  .market-page .market-categories,
+  .market-page .products-section,
+  .market-page .market-learning,
+  .market-page .market-consultation {
     padding: 45px 5%;
   }
 
@@ -693,9 +685,7 @@ footer {
 }
 
 
-/* =========================================
-   15. ACCESSIBILITY AND SMALL FINISHES
-========================================= */
+/*accessibility and visibility*/
 
 a:focus-visible,
 button:focus-visible {
